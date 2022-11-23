@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".views.fragments.CategoryChooserFragment">
+
+        <Button
+            android:id="@+id/btn_sum"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0D47A1"
+            android:text="@string/sum"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_rest"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B71C1C"
+            android:text="@string/rest"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_mult"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#1B5E20"
+            android:text="@string/mult"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_div"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4A148C"
+            android:text="@string/div"
+            android:textColor="#FFFFFF" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

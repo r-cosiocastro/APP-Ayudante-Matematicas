@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284699161123",
+    "project_id": "ayudante-de-matematicas",
+    "storage_bucket": "ayudante-de-matematicas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284699161123:android:85290e3e987fc3e3443796",
+        "android_client_info": {
+          "package_name": "com.rafaelcosio.mathhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284699161123-dd0iik49psbv5tqeuuai50t0318t6g8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Kyr4LPG7xcEX7En2wjF_Po6NbBQyi7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284699161123-dd0iik49psbv5tqeuuai50t0318t6g8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

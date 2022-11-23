@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dim_foreground_disabled_material_dark"
+            tools:ignore="PrivateResource" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/button_layout"
+            android:background="#33ffffff" />
+
+        <RelativeLayout
+            android:id="@+id/button_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent">
+
+            <Button
+                android:id="@+id/btn_skip"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/selectable_item_background_general"
+                android:gravity="center"
+                android:text="@string/welcome_skip"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textSize="18sp"
+                tools:ignore="PrivateResource"
+                android:layout_alignParentLeft="true" />
+
+            <LinearLayout
+                android:id="@+id/circles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_done"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/selectable_item_background_general"
+                android:gravity="center"
+                android:text="@string/welcome_finish"
+                android:textColor="@color/abc_primary_text_material_dark"
+                android:textSize="18sp"
+                android:visibility="gone"
+                tools:ignore="PrivateResource"
+                android:layout_alignParentRight="true" />
+
+            <ImageButton
+                android:id="@+id/btn_next"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/selectable_item_background_general"
+                android:gravity="center"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="TODO"
+                android:src="@drawable/ic_action_next"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,167 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="PrivateResource">Ayudante de Matemáticas</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="drawer_problems">Problemas</string>
+    <string name="drawer_profile">Perfil</string>
+    <string name="drawer_help_title">Ayuda</string>
+    <string name="drawer_help">Recursos en línea</string>
+    <string name="sum">Suma</string>
+    <string name="rest">Resta</string>
+    <string name="mult">Multiplicación</string>
+    <string name="div">División</string>
+    <string name="title_activity_main">Actividad principal</string>
+    <string name="double_tap">Presione dos veces atrás para salir</string>
+    <string name="bottom_back">Anterior</string>
+    <string name="bottom_forward">Siguiente</string>
+    <string name="answer">Respuesta</string>
+    <string name="not_answered">Sin calificar todavía</string>
+    <string name="correct">¡Correcto!</string>
+    <string name="wrong">Incorrecto. El resultado era %1$d</string>
+    <string name="wrong_ans">Incorrecto. La respuesta era %1$s</string>
+    <string name="your_answer">Tu respuesta: %1$d</string>
+    <string name="your_answer_string">Tu respuesta: %1$s</string>
+    <string name="score">Puntuación: %1$d</string>
+    <string name="nivel">Nivel: %1$d</string>
+    <string name="title_activity_solve">Soluciona los problemas</string>
+    <string name="problem_index">Problema %1$d de %2$d</string>
+
+    <string-array name="people_names">
+        <item>Laura</item>
+        <item>Grin</item>
+        <item>Kelly</item>
+        <item>Ana</item>
+        <item>Katy</item>
+        <item>Chris</item>
+        <item>Javier</item>
+        <item>David</item>
+        <item>Pedro</item>
+    </string-array>
+    <string-array name="food">
+        <item>manzanas</item>
+        <item>sandías</item>
+        <item>chocolates</item>
+        <item>dulces</item>
+        <item>piñas</item>
+        <item>peras</item>
+        <item>galletas</item>
+        <item>bolillos</item>
+        <item>tacos</item>
+    </string-array>
+    <string-array name="flavour">
+        <item>chocolate</item>
+        <item>piña</item>
+        <item>galleta</item>
+        <item>queso</item>
+        <item>jamón</item>
+    </string-array>
+    <string-array name="objects">
+        <item>vehículos</item>
+        <item>monedas</item>
+        <item>adornos</item>
+        <item>autos</item>
+        <item>cuadernos</item>
+        <item>camisetas</item>
+    </string-array>
+    <string-array name="colours">
+        <item>azul</item>
+        <item>negro</item>
+        <item>rojo</item>
+        <item>amarillo</item>
+        <item>verde</item>
+    </string-array>
+    <string name="problem1">"%1$s se ha comido %2$d %3$s, si aún le quedan %4$d, ¿cuál es la cantidad de %3$s que tenía?"</string>
+    <string name="answer1">Tenía %1$d %2$s porque %3$d + %4$d = %1$d</string>
+    <string name="problem2">%1$s tiene %2$d %3$s de color %4$s y %5$d de color %6$s. ¿Cuál es la cantidad de %3$s que tiene en total?</string>
+    <string name="answer2">Tiene %1$d %2$s: %3$d + %4$d = %1$d</string>
+    <string name="problem3">Si contamos de %1$d en %1$d, ¿qué viene después? %1$d, %2$d, %3$d,…</string>
+    <string name="problem4">¿Cuál de las respuestas es lo mismo que %1$d + %2$d = %3$d?</string>
+    <string name="answer4">%1$d + %2$d = %3$d</string>
+    <string name="problem5">¿Cuál de las respuestas NO es igual a %1$d?</string>
+    <string name="answer5">%1$d + %2$d</string>
+    <string name="problem6">¿Cómo consigues el número %1$d?</string>
+    <string name="answer6">%1$d - %2$d</string>
+    <string name="finish">Finalizar</string>
+    <string name="user_level">Nivel: %1$d</string>
+    <string name="actual_points">Puntos actuales: %1$d</string>
+    <string name="needed_points">Puntos necesarios: %1$d</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="required">Requerido</string>
+    <string name="password_short">La contraseña debe tener al menos 6 carácteres.</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="logout_text">Cerrar sesión</string>
+    <string name="canceled">Cancelado</string>
+    <string name="error">Ha ocurrido un error, por favor verifique su correo y contraseña. Si el error persiste, verifique su conexión a internet.</string>
+
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="loading" tools:ignore="PrivateResource">Cargando…</string>
+
+    <string name="skip">Omitir</string>
+    <string name="error_email_in_use">El correo electrónico ingresado ya está en uso.</string>
+    <string name="or">O también...</string>
+    <string name="try_again">Intentar de nuevo: x%1$d</string>
+    <string name="reveal_answer">Revelar respuesta: x%1$d</string>
+    <string name="email_address">Correo electrónico</string>
+
+
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+
+    <!-- Strings related to login -->
+
+
+    <string name="developer" translatable="false">Rafael Alberto Cosio Castro</string>
+    <string name="developer_subtitle">Profesor de UABCS</string>
+    <string name="developer_username" translatable="false">r-cosiocastro</string>
+    <string name="facebook" translatable="false">r.cosiocastro</string>
+    <string name="twitter" translatable="false">r_cosiocastro</string>
+    <string name="linkedin" translatable="false">rcosiocastro</string>
+    <string name="developer_gplus_username" translatable="false">r-cosiocastro</string>
+    <string name="developer_email" translatable="false">r.cosio@uabcs.mx</string>
+    <string name="web_uabcs" translatable="false">http://www.uabcs.mx</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="screen1_title">Bienvenido</string>
+    <string name="screen1_desc">Esta aplicación te ayudará a mejorar tus habilidades matemáticas.</string>
+    <string name="screen2_title">Desarrollado en Android Studio</string>
+    <string name="screen2_desc">Por un estudiante de Maestría en Tecnologías de la Información.</string>
+    <string name="screen3_title">Sistema de niveles</string>
+    <string name="screen3_desc">Completa los sets de problemas en el menor tiempo para subir de nivel más rápidamente. ¡Presume a tus amigos tu puntuación!</string>
+    <string name="welcome_skip">OMITIR</string>
+    <string name="welcome_finish">HECHO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="problem">Si Juanito tiene 2 manzanas y María tiene 5 peras, ¿Por qué no he terminado el proyecto?</string>
+    <string name="result">%1$d</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="about_app">Acerca de</string>
+    <string name="user_name">Username</string>
+
+    <!-- Strings related to login -->
+
+
+    <string name="facebook_app_id">572430336465783</string>
+    <string name="pause_time">Pausar cronómetro (5seg): x%1$d</string>
+    <string name="respuesta_dada">Respuesta dada: %1$d</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="tiempo">Tiempo transcurrido: %1$s</string>
+    <string name="problemas_resueltos">Problemas resueltos correctamente: %1$d de %2$d</string>
+    <string name="trucos_usados">Trucos usados: %1$d</string>
+    <string name="puntuacion">Puntuación: %1$d</string>
+    <string name="resumen">Resumen de estadísticas</string>
+    <string name="dificultad">Dificultad: %1$s</string>
+    <string name="operacion">Operación: %1$s</string>
+    <string name="verificar_respuesta">Verificar respuesta</string>
+    <string name="objeto_del_problema">Objeto del problema</string>
+</resources>

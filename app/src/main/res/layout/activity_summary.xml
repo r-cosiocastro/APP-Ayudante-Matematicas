@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.activities.SummaryActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/resumen"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/title">
+            <TextView
+                android:id="@+id/operaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/operacion"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/dificultad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dificultad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/tiempo_transcurrido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tiempo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/problemas_resueltos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/problemas_resueltos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/trucos_usados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trucos_usados"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/puntuacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/puntuacion"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintTop_toBottomOf="@id/linear_layout_stats"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/problems_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fadeScrollbars="true"
+            android:scrollbars="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            app:layout_constraintBottom_toTopOf="@id/button_finalizar"/>
+
+        <Button
+            android:id="@+id/button_finalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/finalizar"
+            android:padding="36dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

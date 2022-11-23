@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="operaciones">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multiplicación</item>
+        <item>División</item>
+    </array>
+    <array name="dificultad">
+        <item>Fácil</item>
+        <item>Moderado</item>
+        <item>Difícil</item>
+    </array>
+</resources>

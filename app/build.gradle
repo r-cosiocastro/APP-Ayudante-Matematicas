@@ -1,0 +1,67 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.rafaelcosio.mathhelper"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    namespace 'com.rafaelcosio.mathhelper'
+    buildToolsVersion '33.0.1'
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    // Firebase Authentication
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.firebase:firebase-storage:20.1.0'
+    implementation 'com.github.jrvansuita:MaterialAbout:0.2.4'
+    implementation 'org.parceler:parceler-api:1.1.13'
+    implementation 'androidx.drawerlayout:drawerlayout:1.1.1'
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    annotationProcessor 'org.parceler:parceler:1.1.13'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.6.0'
+    implementation 'nl.qbusict:cupboard:2.2.0'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.github.badoualy:stepper-indicator:1.0.7'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.jrvansuita:PickImage:2.5.2'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    implementation 'com.nineoldandroids:library:2.4.0'
+
+    implementation 'com.google.android.gms:play-services-auth:20.4.0'
+
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+}

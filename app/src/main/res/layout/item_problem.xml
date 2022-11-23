@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/problem_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="1dp"
+    card_view:cardMaxElevation="2dp"
+    card_view:contentPadding="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/problem_statement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:text="Problem statement aksjdks dskdj kajsdk alsdj kasjdkl jaskld klasjd kljaslkd j"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/problem_given_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/problem_statement"
+            android:text="@string/respuesta_dada"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/problem_real_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/problem_given_answer"
+            android:text="Real answer" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/problem_given_answer"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_wrong_black_24dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

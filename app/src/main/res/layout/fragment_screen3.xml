@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="6"
+    android:background="#00bcd4"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:paddingTop="48dp">
+
+    <FrameLayout
+        android:id="@+id/image_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:clipChildren="false">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:scaleType="centerInside"
+            android:scaleX="4"
+            android:scaleY="4"
+            android:contentDescription="TODO"
+            android:src="@drawable/trophy_logo" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/screen_heading"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="@string/screen3_title"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/screen_desc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:minHeight="@dimen/welcome_content_min_height"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="@string/screen3_desc"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
