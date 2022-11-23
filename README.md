@@ -1,4 +1,4 @@
-# APP-Ayudante-Matematicas
+# APP Ayudante/Asesor de Matematicas
 Aplicación para generar problemas de matemáticas de forma automática.
 
 
