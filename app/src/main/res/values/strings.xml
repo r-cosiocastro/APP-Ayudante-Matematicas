@@ -99,7 +99,7 @@
 
     <string name="skip">Omitir</string>
     <string name="error_email_in_use">El correo electrónico ingresado ya está en uso.</string>
-    <string name="or">O también...</string>
+    <string name="or">O también…</string>
     <string name="try_again">Intentar de nuevo: x%1$d</string>
     <string name="reveal_answer">Revelar respuesta: x%1$d</string>
     <string name="email_address">Correo electrónico</string>
